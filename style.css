@@ -1,0 +1,21 @@
+/* Add your custom styles here */
+.image-container {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px; /* Adjust the size of the icon as needed */
+    height: auto;
+}
